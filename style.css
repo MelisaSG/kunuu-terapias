@@ -77,7 +77,7 @@ section{
 #tarjeta img{
     size: 50%;
     object-fit: cover;
-    border-radius: 100%;
+    
 }
 
 #tarjeta h3{
