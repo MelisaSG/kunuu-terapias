@@ -37,8 +37,14 @@ nav{
 }
 
 nav h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
+}
+
+nav img{
+    height: 40px;
+    width: auto;
+    margin: 20px;
 }
 
 section{
