@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
+
+:root{
+    --color-primario: #15BF98;
+    --color-secundario: #47EBC5;
+    --color-terciario: #06372C;
+    --color-cuarto: #A3F5E2;
+}
+
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +22,7 @@
 
 body{
     display: flex;
-    background-color: #15BF98;
+    background-color: var(--color-primario);
     align-content: center;
     flex-direction: column;
     flex-wrap: wrap;
@@ -26,7 +37,7 @@ nav{
 }
 
 nav h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -39,20 +50,20 @@ section{
 #tarjeta{
     display: flex;
     height: 80px;
-    width: 370px;
+    width: 350px;
     margin: 10px;
     padding: 2% 5% 2% 2%;
-    background-color: #42CC8E ;
+    background-color: var(--color-secundario) ;
     border-radius: 10px;
-    border: 1px solid #73d65ace;
+    border: 1px solid var(--color-terciario);
     justify-content: space-between;
 }
 
 #tarjeta:hover{
-    
+    font-weight: bold;
     border: 0;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-    color: white;
+    box-shadow: 0 8px 20px var(--color-terciario);
+    color: #ffff;
     transform: scale(1.05);
     z-index: 2;
 }
@@ -65,6 +76,11 @@ section{
 
 #tarjeta h3{
     font-size: 35px;
-    font-weight: bold;
+    
     padding-left: 4%;
+}
+
+footer{
+    box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.1);
+    margin-top: 20px;
 }
