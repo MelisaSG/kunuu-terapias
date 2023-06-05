@@ -175,11 +175,11 @@ footer{
 #whatsapp{
     position: fixed;
     top: 55%;
-    left: 70%;
+    left: 80%;
 }
 
 #whatsapp img{
-    height: 50px;
+    height: 60px;
     width: auto;
     margin: 20px;
 }
