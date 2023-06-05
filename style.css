@@ -54,6 +54,7 @@ nav{
 nav h1 {
     font-size: 50px;
     font-weight: bold;
+    text-shadow: var(--color-terciario) 0px 0px 1px;
 }
 
 nav img{
@@ -84,6 +85,7 @@ span{
     border: 0;
     box-shadow: 0 8px 10px -7px var(--color-terciario);
     color: #111111;
+    text-shadow: var(--color-terciario) 0px 0px 3px;
     transform: scale(1.05);
     z-index: 2;
 }
@@ -118,14 +120,16 @@ span{
     display: flex;
     font-size: 40px;
     font-weight: bold;
+    text-shadow: var(--color-terciario) 0px 0px 3px;
 }
 
 #contenido-articulo{
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 10px;
+    
 }
 
 footer{
@@ -159,10 +163,6 @@ footer{
     animation-duration:5s;
   }
   
-
-  
-  
-  
   @keyframes slide {
     0% {
       transform:translateX(-25%);
@@ -171,6 +171,19 @@ footer{
       transform:translateX(25%);
     }
   }
+
+#whatsapp{
+    position: fixed;
+    top: 75%;
+    left: 70%;
+}
+
+#whatsapp img{
+    height: 50px;
+    width: auto;
+    margin: 20px;
+}
+
 
 footer h2{
     display: flex;
