@@ -103,12 +103,12 @@ section{
 }
 
 #articulo{
-    margin: 15px;
+    margin: 10px;
     width: 80%;
     height: fit-content;
-    border: 3px solid var(--color-cuarto);
-    border-radius: 12%;
     padding: 30px;
+    background-color: #47EBC5;
+    
 }
 
 #titulo-articulo{
@@ -126,12 +126,45 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.1);
     width: 100%;
     margin-top: 30px;
     padding: 10px;
     
 }
+
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #15BF98 50%, #A3F5E2 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+
+  
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
 
 footer h2{
     display: flex;
