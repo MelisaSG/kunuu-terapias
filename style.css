@@ -85,7 +85,7 @@ span{
     border: 0;
     box-shadow: 0 8px 10px -7px var(--color-terciario);
     color: #111111;
-    text-shadow: var(--color-terciario) 0px 0px 3px;
+    text-shadow: var(--color-terciario) 0px 0px 1px;
     transform: scale(1.05);
     z-index: 2;
 }
@@ -120,7 +120,7 @@ span{
     display: flex;
     font-size: 40px;
     font-weight: bold;
-    text-shadow: var(--color-terciario) 0px 0px 3px;
+    text-shadow: var(--color-terciario) 0px 0px 1px;
 }
 
 #contenido-articulo{
