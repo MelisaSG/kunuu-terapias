@@ -62,6 +62,9 @@ nav img{
     margin: 20px;
 }
 
+span{
+    margin:5px;
+}
 
 #tarjeta{
     display: flex;
