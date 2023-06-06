@@ -63,6 +63,16 @@ nav img{
     margin: 20px;
 }
 
+#loto1{
+    position: absolute;
+    left: 80%;
+}
+
+#loto2{
+    position: absolute;
+    right:80%;
+}
+
 span{
     margin:5px;
 }
@@ -94,6 +104,13 @@ span{
     size: 50%;
     object-fit: cover;
     
+}
+
+#firma{
+    height: 80px;
+    width: auto;
+    display: flex;
+    margin-top: 30px;
 }
 
 #tarjeta h3{
